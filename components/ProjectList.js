@@ -6,8 +6,9 @@ const ProjectList = () => {
     return (
         <div className={style.grid}>
         {
-            projects.map(project => (
+            projects.map((project,index) => (
                 <ProjectItem 
+                key={index}
                 image={project.image} 
                 title={project.title} 
                 description={project.description}
