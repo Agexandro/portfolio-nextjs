@@ -7,12 +7,29 @@
     box-shadow: 0px 0px  10px lightgray;
 }
 
-.menu {
+.logo {
+    font-size: 24px;
+}
+
+.burger {
     display: none;
 }
 
-.menuMobile {
+.menu {
     display: flex;
+    list-style: none;
+    width: 300px;
+    justify-content: space-between;
+}
+
+/*Mobile*/
+ @media (max-width: 688px) {
+
+.hide {
+    display: none;
+}
+
+.menu {
     flex-flow: column;
     position: absolute;
     list-style: none;
@@ -27,12 +44,12 @@
     scroll-behavior: smooth;
 }
 
-.menuMobile li{
+.menu li{
     width: 80%;
     margin-top: 10px;
 }
 
-.menuMobile li a {
+.menu li a {
     border-radius: 50px;
     display: block;
     padding: 20px;
@@ -44,6 +61,7 @@
 }
 
 .burger {
+    display: block;
     z-index: 1;
 }
 
@@ -55,43 +73,4 @@
     border-radius: 6px;
 }
 
-.logo {
-    font-size: 24px;
-}
-
-@media (min-width: 689px) {
-    .burger {
-        display: none;
-    }
-
-    .menu {
-        display: flex;
-        list-style: none;
-        width: 300px;
-        justify-content: space-between;
-    }
-
-    .menuMobile {
-        flex-flow: row;
-        position: relative;
-        width: 300px;
-        justify-content: space-between;
-    }
-
-    .menuMobile li{
-        width: fit-content;
-        margin-top: 0;
-    }
-    
-    .menuMobile li a {
-        border-radius: 50px;
-        display: block;
-        padding: 20px;
-        width: 100%;
-        background-color: inherit;
-        text-align: center;
-        color: black;
-        font-weight: normal;
-    }
-
-}
+} 

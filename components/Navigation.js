@@ -3,17 +3,17 @@ import { useState } from 'react/cjs/react.development'
 import style from '../styles/Navigation.module.css'
 
 const Navigation = () => {
-    const [toggle, setToggle] = useState(style.menu)
+    const [toggle, setToggle] = useState('')
 
     const showMenu = () => {
-        toggle == style.menu ?
-            setToggle(style.menuMobile) : setToggle(style.menu)
+        toggle == '' ?
+            setToggle(style.hide) : setToggle('')
     }
 
     return (
         <nav className={style.navigation}>
             <p className={style.logo}>Portfolio</p>
-            <ul className={toggle}>
+            <ul className={style.menu+' '+toggle}>
                 <li>
                     <Link href="/"><a>Home</a></Link>
                 </li>
