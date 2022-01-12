@@ -1,0 +1,75 @@
+[
+    {
+        "image": "https://raw.githubusercontent.com/Agexandro/Checkout_page/master/images/screen.png",
+        "title": "Checkout page",
+        "demo": "https://agexandro.github.io/Checkout_page/",
+        "repo": "https://github.com/Agexandro/Checkout_page/",
+        "tools": "html5, Css3",
+        "description": "Form to buy some products"
+    },
+    {
+        "image": "https://raw.githubusercontent.com/Agexandro/My-gallery-master/master/images/screen.png",
+        "title": "My gallery master",
+        "demo": "https://agexandro.github.io/My-gallery-master/",
+        "repo": "https://github.com/Agexandro/My-gallery-master",
+        "tools": "html5, Css3",
+        "description": "A simple gallery page"
+    },
+    {
+        "image": "https://raw.githubusercontent.com/Agexandro/InteriorConsultant/master/images/screen.png",
+        "title": "Interior consultant",
+        "demo": "https://agexandro.github.io/InteriorConsultant/",
+        "repo": "https://github.com/Agexandro/InteriorConsultant",
+        "tools": "html5, Css3",
+        "description": "A cool page that offers interior consultant services"
+    },
+    {
+        "image": "https://raw.githubusercontent.com/Agexandro/EdiePage/master/images/image.png",
+        "title": "Edie Page",
+        "demo": "https://agexandro.github.io/EdiePage/",
+        "repo": "https://github.com/Agexandro/EdiePage",
+        "tools": "html5, Css3, SCSS, JavaScript",
+        "description": "Page where you can hire Edie's team to make real your project"
+    },
+    {
+        "image": "https://raw.githubusercontent.com/Agexandro/ListaHeroes/master/public/image.png",
+        "title": "Heroes List",
+        "demo": "https://agexandro.github.io/ListaHeroes/",
+        "repo": "https://github.com/Agexandro/ListaHeroes",
+        "tools": "html5, Css3, ReactJs",
+        "description": "Find info about your favourite super heroes with this page"
+    },
+    {
+        "image": "https://raw.githubusercontent.com/Agexandro/Classic-Cheesecake-Recipe/master/images/screen.png",
+        "title": "Cheesecake Recipe",
+        "demo": "https://agexandro.github.io/Classic-Cheesecake-Recipe/",
+        "repo": "https://github.com/Agexandro/Classic-Cheesecake-Recipe",
+        "tools": "html5, Css3",
+        "description": "If you want to eat something delicious, try this recipe"
+    },
+    {
+        "image": "https://raw.githubusercontent.com/Agexandro/My-team-page/master/images/screen.png",
+        "title": "my team page",
+        "demo": "https://agexandro.github.io/My-team-page/",
+        "repo": "https://github.com/Agexandro/My-team-page",
+        "tools": "html5, Css3",
+        "description": "This team will help you in whatever they do..."
+    },
+    {
+        "image": "https://raw.githubusercontent.com/Agexandro/404_Error/master/images/screen.png",
+        "title": "404_Error",
+        "demo": "https://agexandro.github.io/404_Error/",
+        "repo": "https://github.com/Agexandro/404_Error",
+        "tools": "html, Css3",
+        "description": "Heartbreaking 404 error"
+    }
+    ,
+    {
+        "image": "https://raw.githubusercontent.com/Agexandro/Chronometer/main/chrono.png",
+        "title": "Simple chronometer",
+        "demo": "https://agexandro.github.io/Chronometer/",
+        "repo": "https://github.com/Agexandro/Chronometer",
+        "tools": "html, Css3, javascript",
+        "description": "Simple chronometer"
+    }
+]

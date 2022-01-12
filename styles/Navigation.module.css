@@ -1,0 +1,97 @@
+.navigation {
+    padding: 0% 5%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px  10px lightgray;
+}
+
+.menu {
+    display: none;
+}
+
+.menuMobile {
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    list-style: none;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    scroll-behavior: smooth;
+}
+
+.menuMobile li{
+    width: 80%;
+    margin-top: 10px;
+}
+
+.menuMobile li a {
+    border-radius: 50px;
+    display: block;
+    padding: 20px;
+    width: 100%;
+    background-color: #41456A;
+    text-align: center;
+    color: #FFF500;
+    font-weight: bold;
+}
+
+.burger {
+    z-index: 1;
+}
+
+.burger > div {
+    width: 30px;
+    height: 6px;
+    background-color: black;
+    margin: 3px;
+    border-radius: 6px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+@media (min-width: 689px) {
+    .burger {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        list-style: none;
+        width: 300px;
+        justify-content: space-between;
+    }
+
+    .menuMobile {
+        flex-flow: row;
+        position: relative;
+        width: 300px;
+        justify-content: space-between;
+    }
+
+    .menuMobile li{
+        width: fit-content;
+        margin-top: 0;
+    }
+    
+    .menuMobile li a {
+        border-radius: 50px;
+        display: block;
+        padding: 20px;
+        width: 100%;
+        background-color: inherit;
+        text-align: center;
+        color: black;
+        font-weight: normal;
+    }
+
+}
