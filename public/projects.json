@@ -32,14 +32,6 @@
         "description": "Page where you can hire Edie's team to make real your project"
     },
     {
-        "image": "https://raw.githubusercontent.com/Agexandro/ListaHeroes/master/public/image.png",
-        "title": "Heroes List",
-        "demo": "https://agexandro.github.io/ListaHeroes/",
-        "repo": "https://github.com/Agexandro/ListaHeroes",
-        "tools": "html5, Css3, ReactJs",
-        "description": "Find info about your favourite super heroes with this page"
-    },
-    {
         "image": "https://raw.githubusercontent.com/Agexandro/Classic-Cheesecake-Recipe/master/images/screen.png",
         "title": "Cheesecake Recipe",
         "demo": "https://agexandro.github.io/Classic-Cheesecake-Recipe/",
